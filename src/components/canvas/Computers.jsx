@@ -24,7 +24,6 @@ if (!position || isNaN(position.x) || isNaN(position.y) || isNaN(position.z)) {
 
 return (
   <mesh>
-    <hemisphereLight intensity={0.30} groundColor='black' />
     {/* Your lighting and shadow code */}
     <primitive
       object={computer.scene}
