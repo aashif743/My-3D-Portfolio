@@ -80,7 +80,7 @@ const StarsCanvas = () => {
       <Canvas
         camera={{ position: [0, 0, .01] }}>
         <Suspense fallback={<CanvasLoader />}>
-          <CustomGeometryParticles count={5000} shape="box" />
+          <CustomGeometryParticles count={6000} shape="box" />
         </Suspense>
         <Preload all />
       </Canvas>
